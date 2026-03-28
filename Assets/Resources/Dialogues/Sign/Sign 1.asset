@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e28932c8fba0c41baaa8b8012e6f7d, type: 3}
+  m_Name: Sign 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - talker: 5
+    sentenceText: "\"J\xE1 ouviu falar no aprendizado em combate?\""
+    sentenceAction: {fileID: 0}
+  - talker: 5
+    sentenceText: '"Vai precisar disso se quiser ficar vivo!"'
+    sentenceAction: {fileID: 0}
+  - talker: 5
+    sentenceText: "\"Ent\xE3o fique atento aos detalhes, vai que voc\xEA acaba pegando
+      algum 'insight' aqui ou ali.\""
+    sentenceAction: {fileID: 0}
+  - talker: 5
+    sentenceText: '"Se sentir que pescou alguma coisa, abra algum livro e anote!
+      (Pause), talvez de pra melhorar em alguma coisa!"'
+    sentenceAction: {fileID: 0}
+  responses: []

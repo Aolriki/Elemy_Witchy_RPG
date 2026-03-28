@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e28932c8fba0c41baaa8b8012e6f7d, type: 3}
+  m_Name: Little_Talker 3
+  m_EditorClassIdentifier: 
+  sentences:
+  - talker: 2
+    sentenceText: Fogo vence planta, planta vence agua, mas sem agua por enquanto!
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: E agua vence de fogo! Eu estudo isso o tempo todo!
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "Mas como isso me ajudaria? Eu n\xE3o tenho um Elemy, e nem posso
+      ter um!"
+    sentenceAction: {fileID: 0}
+  - talker: 2
+    sentenceText: "N\xE3o precisa ter, Elemy Primal \xE9 amigo, mesmo que s\xF3 rapidinho!
+      Liberte de forma Selvagem!"
+    sentenceAction: {fileID: 0}
+  responses: []

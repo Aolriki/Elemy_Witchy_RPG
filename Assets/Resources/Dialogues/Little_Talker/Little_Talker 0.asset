@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e28932c8fba0c41baaa8b8012e6f7d, type: 3}
+  m_Name: Little_Talker 0
+  m_EditorClassIdentifier: 
+  sentences:
+  - talker: 2
+    sentenceText: "Ol\xE1! Eu sou um Teste de DIalogo."
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: Ahnn? Como assim?
+    sentenceAction: {fileID: 0}
+  - talker: 2
+    sentenceText: "Sim, isso n\xE3o \xE9 um dialogo de verdade :3"
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: Impossivel...
+    sentenceAction: {fileID: 0}
+  responses: []

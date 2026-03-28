@@ -1,0 +1,1160 @@
+fileFormatVersion: 2
+guid: afbe3cf2718077f40ada2acd211072a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6384980287295875379
+    second: Sheet_Bea_v1_0
+  - first:
+      213: -8747504020768732174
+    second: Sheet_Bea_v1_1
+  - first:
+      213: -7680762390886847583
+    second: Sheet_Bea_v1_2
+  - first:
+      213: -5310052545738746833
+    second: Sheet_Bea_v1_3
+  - first:
+      213: 1469727698410211451
+    second: Sheet_Bea_v1_4
+  - first:
+      213: 5375128890771111506
+    second: Sheet_Bea_v1_5
+  - first:
+      213: 2350171575399240116
+    second: Sheet_Bea_v1_6
+  - first:
+      213: -3885509637531849031
+    second: Sheet_Bea_v1_7
+  - first:
+      213: -7155627422930965415
+    second: Sheet_Bea_v1_8
+  - first:
+      213: 3504997349520231580
+    second: Sheet_Bea_v1_9
+  - first:
+      213: -2132788723461117411
+    second: Sheet_Bea_v1_10
+  - first:
+      213: -8838353585919650758
+    second: Sheet_Bea_v1_11
+  - first:
+      213: 3685910162935439381
+    second: Sheet_Bea_v1_12
+  - first:
+      213: 6128020980190988375
+    second: Sheet_Bea_v1_13
+  - first:
+      213: 9076613928605660641
+    second: Sheet_Bea_v1_14
+  - first:
+      213: 3437565323184246409
+    second: Sheet_Bea_v1_15
+  - first:
+      213: 1529594385686492412
+    second: Sheet_Bea_v1_16
+  - first:
+      213: 4122662323786290569
+    second: Sheet_Bea_v1_17
+  - first:
+      213: -5631493617740082364
+    second: Sheet_Bea_v1_18
+  - first:
+      213: 4124608805101300570
+    second: Sheet_Bea_v1_19
+  - first:
+      213: -3354955898787712831
+    second: Sheet_Bea_v1_20
+  - first:
+      213: -7699820009993815151
+    second: Sheet_Bea_v1_21
+  - first:
+      213: 5607058997040692726
+    second: Sheet_Bea_v1_22
+  - first:
+      213: -7314331454534725603
+    second: Sheet_Bea_v1_23
+  - first:
+      213: -6249423391955920849
+    second: Sheet_Bea_v1_24
+  - first:
+      213: -4596496864315785578
+    second: Sheet_Bea_v1_25
+  - first:
+      213: -4625692936090178352
+    second: Sheet_Bea_v1_26
+  - first:
+      213: 2254476890740153887
+    second: Sheet_Bea_v1_27
+  - first:
+      213: -1920546718882505246
+    second: Sheet_Bea_v1_28
+  - first:
+      213: -8648795630499189931
+    second: Sheet_Bea_v1_29
+  - first:
+      213: -5147135352749636429
+    second: Sheet_Bea_v1_30
+  - first:
+      213: 509557195629163143
+    second: Sheet_Bea_v1_31
+  - first:
+      213: 8526375896696915572
+    second: Sheet_Bea_v1_32
+  - first:
+      213: -8837871412875458722
+    second: Sheet_Bea_v1_33
+  - first:
+      213: 4333415236679644959
+    second: Sheet_Bea_v1_34
+  - first:
+      213: 1844086649504333685
+    second: Sheet_Bea_v1_35
+  - first:
+      213: -3898558785583958798
+    second: Sheet_Bea_v1_36
+  - first:
+      213: 6508951288310011699
+    second: Sheet_Bea_v1_37
+  - first:
+      213: -3614956647653433401
+    second: Sheet_Bea_v1_38
+  - first:
+      213: -7131155867812309258
+    second: Sheet_Bea_v1_39
+  - first:
+      213: 4983084453014995695
+    second: Sheet_Bea_v1_40
+  - first:
+      213: 3653909179951486587
+    second: Sheet_Bea_v1_41
+  - first:
+      213: -6056964952635019937
+    second: Sheet_Bea_v1_42
+  - first:
+      213: 3257242735393934783
+    second: Sheet_Bea_v1_43
+  - first:
+      213: -1485924951388233428
+    second: Sheet_Bea_v1_44
+  - first:
+      213: 6931373613788032127
+    second: Sheet_Bea_v1_45
+  - first:
+      213: -347533579015279157
+    second: Sheet_Bea_v1_46
+  - first:
+      213: -6069953402118145739
+    second: Sheet_Bea_v1_47
+  - first:
+      213: -3122613587616255965
+    second: Sheet_Bea_v1_48
+  - first:
+      213: 4973483167421533483
+    second: Sheet_Bea_v1_49
+  - first:
+      213: 1821450205525752630
+    second: Sheet_Bea_v1_50
+  - first:
+      213: -8802469803638848016
+    second: Sheet_Bea_v1_51
+  - first:
+      213: -8229572091913668213
+    second: Sheet_Bea_v1_52
+  - first:
+      213: 8214380533148301841
+    second: Sheet_Bea_v1_53
+  - first:
+      213: -919232340755712082
+    second: Sheet_Bea_v1_54
+  - first:
+      213: -967095545232709596
+    second: Sheet_Bea_v1_55
+  - first:
+      213: 1366119860835259957
+    second: Sheet_Bea_v1_56
+  - first:
+      213: 2894366949084500873
+    second: Sheet_Bea_v1_57
+  - first:
+      213: 6546417570184666458
+    second: Sheet_Bea_v1_58
+  - first:
+      213: -170725099089694360
+    second: Sheet_Bea_v1_59
+  - first:
+      213: -5799472990386921990
+    second: Sheet_Bea_v1_60
+  - first:
+      213: 8067934213331958087
+    second: Sheet_Bea_v1_61
+  - first:
+      213: -6840821276779675515
+    second: Sheet_Bea_v1_62
+  - first:
+      213: -8377562876879160737
+    second: Sheet_Bea_v1_63
+  - first:
+      213: 378448830674311451
+    second: Sheet_Bea_v1_64
+  - first:
+      213: 7702154927483372962
+    second: Sheet_Bea_v1_65
+  - first:
+      213: 150876345303694478
+    second: Sheet_Bea_v1_66
+  - first:
+      213: -2706497079674186833
+    second: Sheet_Bea_v1_67
+  - first:
+      213: 4274036543078889451
+    second: Sheet_Bea_v1_68
+  - first:
+      213: -948629428022552598
+    second: Sheet_Bea_v1_69
+  - first:
+      213: 8652983156873132910
+    second: Sheet_Bea_v1_70
+  - first:
+      213: 103184102954062150
+    second: Sheet_Bea_v1_71
+  - first:
+      213: 7890085782509454932
+    second: Sheet_Bea_v1_72
+  - first:
+      213: 6390234230307005355
+    second: Sheet_Bea_v1_73
+  - first:
+      213: -5262049800595760272
+    second: Sheet_Bea_v1_74
+  - first:
+      213: -2897374473895098750
+    second: Sheet_Bea_v1_75
+  - first:
+      213: -4746306001224568285
+    second: Sheet_Bea_v1_76
+  - first:
+      213: -4048464209849849285
+    second: Sheet_Bea_v1_77
+  - first:
+      213: -1309462775408799570
+    second: Sheet_Bea_v1_78
+  - first:
+      213: 5307280328622760110
+    second: Sheet_Bea_v1_79
+  - first:
+      213: -3215520763098504732
+    second: Sheet_Bea_v1_80
+  - first:
+      213: -304239653344399294
+    second: Sheet_Bea_v1_81
+  - first:
+      213: 2812580458426974384
+    second: Sheet_Bea_v1_82
+  - first:
+      213: 1855991875866852836
+    second: Sheet_Bea_v1_83
+  - first:
+      213: 4879909673463297831
+    second: Sheet_Bea_v1_84
+  - first:
+      213: 3066090812859718934
+    second: Sheet_Bea_v1_85
+  - first:
+      213: -435516432303135400
+    second: Sheet_Bea_v1_86
+  - first:
+      213: -6206637302636415463
+    second: Sheet_Bea_v1_87
+  - first:
+      213: 938569999687245905
+    second: Sheet_Bea_v1_88
+  - first:
+      213: -5047508243428498593
+    second: Sheet_Bea_v1_89
+  - first:
+      213: -4546324896302627799
+    second: Sheet_Bea_v1_90
+  - first:
+      213: 7210004305679247655
+    second: Sheet_Bea_v1_91
+  - first:
+      213: -5112918678719811655
+    second: Sheet_Bea_v1_92
+  - first:
+      213: -2208142484110138193
+    second: Sheet_Bea_v1_93
+  - first:
+      213: -6179732012728258751
+    second: Sheet_Bea_v1_94
+  - first:
+      213: 5264777200993621778
+    second: Sheet_Bea_v1_95
+  - first:
+      213: -7997877996782878429
+    second: Sheet_Bea_v1_96
+  - first:
+      213: 8121668461200173567
+    second: Sheet_Bea_v1_97
+  - first:
+      213: -6178772400684001671
+    second: Sheet_Bea_v1_98
+  - first:
+      213: -3367972516946990173
+    second: Sheet_Bea_v1_99
+  - first:
+      213: 8360177364851409283
+    second: Sheet_Bea_v1_100
+  - first:
+      213: 5633020054391583483
+    second: Sheet_Bea_v1_101
+  - first:
+      213: 5913668345736592720
+    second: Sheet_Bea_v1_102
+  - first:
+      213: -6847491325246079127
+    second: Sheet_Bea_v1_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33964220eb10c9850800000000000000
+      internalID: 6384980287295875379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_1
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb47ca707f9a9680800000000000000
+      internalID: -8747504020768732174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_2
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab6207cc43786590800000000000000
+      internalID: -7680762390886847583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_3
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f245590f757ee46b0800000000000000
+      internalID: -5310052545738746833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_4
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b780b440e85856410800000000000000
+      internalID: 1469727698410211451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_5
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ef95c5f3b489a40800000000000000
+      internalID: 5375128890771111506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_6
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b154e8989c7d9020800000000000000
+      internalID: 2350171575399240116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_7
+      rect:
+        serializedVersion: 2
+        x: 4340
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9beae8b2295e31ac0800000000000000
+      internalID: -3885509637531849031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ce72f55ca12bc90800000000000000
+      internalID: -7155627422930965415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_9
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cc6d4e48044a030800000000000000
+      internalID: 3504997349520231580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_10
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a242db4ffc662e0800000000000000
+      internalID: -2132788723461117411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_11
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3495ffbd3cd75580800000000000000
+      internalID: -8838353585919650758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_12
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510e4cfa3cbf62330800000000000000
+      internalID: 3685910162935439381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_13
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758cc642d9a1b0550800000000000000
+      internalID: 6128020980190988375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf476495df53a3510800000000000000
+      internalID: 1529594385686492412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_17
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9851b2a6a83a63930800000000000000
+      internalID: 4122662323786290569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_18
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44319bf346ae8d1b0800000000000000
+      internalID: -5631493617740082364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_19
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5be289eadd8d3930800000000000000
+      internalID: 4124608805101300570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_20
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c038a7a26dc071d0800000000000000
+      internalID: -3354955898787712831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_21
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bbfdd0f7eb42590800000000000000
+      internalID: -7699820009993815151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_22
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdb449437640dd40800000000000000
+      internalID: 5607058997040692726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10ddfa8b464e7a90800000000000000
+      internalID: -7314331454534725603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_24
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 400
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28537f29869549a0800000000000000
+      internalID: -6249423391955920849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_25
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 400
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69eb2478476f530c0800000000000000
+      internalID: -4596496864315785578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b2525823e49f780800000000000000
+      internalID: -8648795630499189931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_30
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4c088daa3b198b0800000000000000
+      internalID: -5147135352749636429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_31
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7827836d19f421700800000000000000
+      internalID: 509557195629163143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_32
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476821014b5c35670800000000000000
+      internalID: 8526375896696915572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_33
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e578af866c2995580800000000000000
+      internalID: -8837871412875458722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_34
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f173e86c232632c30800000000000000
+      internalID: 4333415236679644959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheet_Bea_v1_35
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ffebe8903879910800000000000000
+      internalID: 1844086649504333685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 891bef0091c31354bbbc2ed49457bfa6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sheet_Bea_v1_0: 6384980287295875379
+      Sheet_Bea_v1_1: -8747504020768732174
+      Sheet_Bea_v1_10: -2132788723461117411
+      Sheet_Bea_v1_11: -8838353585919650758
+      Sheet_Bea_v1_12: 3685910162935439381
+      Sheet_Bea_v1_13: 6128020980190988375
+      Sheet_Bea_v1_14: 9076613928605660641
+      Sheet_Bea_v1_15: 3437565323184246409
+      Sheet_Bea_v1_16: 1529594385686492412
+      Sheet_Bea_v1_17: 4122662323786290569
+      Sheet_Bea_v1_18: -5631493617740082364
+      Sheet_Bea_v1_19: 4124608805101300570
+      Sheet_Bea_v1_2: -7680762390886847583
+      Sheet_Bea_v1_20: -3354955898787712831
+      Sheet_Bea_v1_21: -7699820009993815151
+      Sheet_Bea_v1_22: 5607058997040692726
+      Sheet_Bea_v1_23: -7314331454534725603
+      Sheet_Bea_v1_24: -6249423391955920849
+      Sheet_Bea_v1_25: -4596496864315785578
+      Sheet_Bea_v1_26: -4625692936090178352
+      Sheet_Bea_v1_27: 2254476890740153887
+      Sheet_Bea_v1_28: -1920546718882505246
+      Sheet_Bea_v1_29: -8648795630499189931
+      Sheet_Bea_v1_3: -5310052545738746833
+      Sheet_Bea_v1_30: -5147135352749636429
+      Sheet_Bea_v1_31: 509557195629163143
+      Sheet_Bea_v1_32: 8526375896696915572
+      Sheet_Bea_v1_33: -8837871412875458722
+      Sheet_Bea_v1_34: 4333415236679644959
+      Sheet_Bea_v1_35: 1844086649504333685
+      Sheet_Bea_v1_4: 1469727698410211451
+      Sheet_Bea_v1_5: 5375128890771111506
+      Sheet_Bea_v1_6: 2350171575399240116
+      Sheet_Bea_v1_7: -3885509637531849031
+      Sheet_Bea_v1_8: -7155627422930965415
+      Sheet_Bea_v1_9: 3504997349520231580
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

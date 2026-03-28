@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e28932c8fba0c41baaa8b8012e6f7d, type: 3}
+  m_Name: Academia_Carriage 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - talker: 4
+    sentenceText: "Ei! Mais uma vez, toma muito cuidado! A sua tarefa \xE9 bem simples: "
+    sentenceAction: {fileID: 0}
+  - talker: 4
+    sentenceText: "V\xE1 at\xE9 a caravana do outro lado, pegue a entrega, e volte."
+    sentenceAction: {fileID: 0}
+  - talker: 4
+    sentenceText: "N\xE3o \xE9 pra ficar zanzando por ai, entendeu?"
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "Sim, eu j\xE1 sei, larga do meu p\xE9!"
+    sentenceAction: {fileID: 0}
+  responses: []

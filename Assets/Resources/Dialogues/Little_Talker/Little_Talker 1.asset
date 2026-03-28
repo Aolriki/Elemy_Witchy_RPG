@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e28932c8fba0c41baaa8b8012e6f7d, type: 3}
+  m_Name: Little_Talker 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - talker: 2
+    sentenceText: "Pequena e valente, mas n\xE3o magico?"
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "Qu-quem \xE9 voc\xEA?\u2026 Voc\xEA veio junto com eles?"
+    sentenceAction: {fileID: 0}
+  - talker: 2
+    sentenceText: "Ahh, n\xE3o n\xE3o, eu n\xE3o ser homenzinho alto."
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "\u2026 (Que cara estranho\u2026)"
+    sentenceAction: {fileID: 0}
+  - talker: 2
+    sentenceText: "Ei, voc\xEA n\xE3o magico, porqu\xEA aqui?"
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "Eu sou uma bruxa, ta?! \xC9 que eu to\u2026 Eu to treinando meus
+      m\xFAsculos!"
+    sentenceAction: {fileID: 0}
+  - talker: 2
+    sentenceText: "Aqui ser perigoso, pessoa fraca n\xE3o segura."
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "Eu preciso encontrar algumas pessoas. As que estavam aqui, nessa
+      carruagem!.. (Do que ele me chamou?\u2026)"
+    sentenceAction: {fileID: 0}
+  - talker: 2
+    sentenceText: "Elas tamb\xE9m em perigo, homenzinhos altos ser magico, mas sem
+      valentia."
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: Eu preciso ajudar! Pra onde eles foram?!
+    sentenceAction: {fileID: 0}
+  - talker: 2
+    sentenceText: "L\xE1 (direita), mas menina n\xE3o magica, n\xE3o ter medo?"
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "Eu tenho que ajudar! Se n\xE3o\u2026 eu\u2026"
+    sentenceAction: {fileID: 0}
+  responses: []

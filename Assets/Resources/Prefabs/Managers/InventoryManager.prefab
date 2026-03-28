@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8224964452243450302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7197410979186905986}
+  - component: {fileID: 4148782557380367124}
+  - component: {fileID: 5175877916927365233}
+  - component: {fileID: 7239309425719464546}
+  - component: {fileID: 7067261424443618550}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7197410979186905986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224964452243450302}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4148782557380367124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224964452243450302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d07c83681c639438794e8b512928ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentInsight: 0
+  insightToNextLevel: 100
+  currentLevel: 1
+  maxLevel: 15
+  insightPoints: 0
+  levelScaling: 2.5
+--- !u!114 &5175877916927365233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224964452243450302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c822f0620b40f4bb4d4dad928b0a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elemyTimerBonus:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+  damageBonus: 000000000100000001000000010000000100000002000000
+  maxHealthBonus:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+--- !u!114 &7239309425719464546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224964452243450302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e626152d21930c040840b15449aae154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  archetypeCautelosa: {fileID: 11400000, guid: b0754bd6c8eebff408d4c4540a55c3f9, type: 2}
+  archetypeExemplar: {fileID: 11400000, guid: a65602fe594464749bfa5d899cd147ef, type: 2}
+  archetypeProativa: {fileID: 11400000, guid: f8013fae1fdfa1645966d31f0780c168, type: 2}
+--- !u!114 &7067261424443618550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224964452243450302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b04b11c336a509949ba6b10cae55da07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

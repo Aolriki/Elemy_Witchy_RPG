@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e28932c8fba0c41baaa8b8012e6f7d, type: 3}
+  m_Name: Scared_Boy 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - talker: 1
+    sentenceText: "Ei, t\xE1 tudo bem com voc\xEA?"
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "Ahhh! Eh-\xE9- uma garotinha?"
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "Espera, esse chap\xE9u\u2026 Voc\xEA \xE9 uma bruxa, n\xE3o \xE9?
+      (Gra\xE7as a deus)."
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "Sim! Estou procurando os membros de uma caravana, voc\xEA \xE9
+      um deles?"
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "Sim, sou o rastreador do grupo, mas os outros n\xE3o est\xE3o
+      por aqui."
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: Eles te abandonaram?!
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "N\xE3o, n\xE3o! Eu sai para encontrar alguns cogumelos e fui atacado
+      de surpresa, eles nem sabem que eu vim pra c\xE1!"
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "Mas, eu n\xE3o consigo me mover, voc\xEA salvou minha vida! Muito
+      obrigado pequena bruxa!"
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "N\xE3o tem de que! Ent\xE3o\u2026 Por onde eu devo procurar seus
+      colegas?"
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "Uhnn, a ultima vez que os vi\u2026 Foi no acampamento, l\xE1!
+      (Direita)"
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "Talvez algum deles ainda esteja l\xE1, os outros devem ter ido
+      atr\xE1s do segredo\u2026"
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "Segredo? Do que voc\xEA t\xE1 falando?"
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "Voc\xEA n\xE3o sabe? Do livro!?"
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: "Livro?.. Por que voc\xEAs vieram procurar um livro no meio do
+      mato?"
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "H\xE1 uma lenda, muito, muito antiga..."
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "De que existe um livro magico, feito pelos proprios Elemys! Dizem
+      que quem o tiver, poder\xE1 realizar o que quiser!"
+    sentenceAction: {fileID: 0}
+  - talker: 1
+    sentenceText: '"GASP"! Ta brincando! (Pera ai... Eu poderia ser uma bruxa de
+      verdade!)'
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: Enfim, se for procurar por meus colegas, tenta dar um jeito de
+      subir por ali (Direita).
+    sentenceAction: {fileID: 0}
+  - talker: 3
+    sentenceText: "Mas toma cuidado em! N\xF3s n\xE3o somos os unicos procurando
+      pelo livro... Se cuida pequena bruxa."
+    sentenceAction: {fileID: 0}
+  responses: []

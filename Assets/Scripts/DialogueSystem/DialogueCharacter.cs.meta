@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aaac89dd2212c514abb97b1cdd02cee0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - interactionIcon: {instanceID: 0}
+  - graphic: {instanceID: 0}
+  - dialogueBalloonPosition: {instanceID: 0}
+  - monologueBalloonPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

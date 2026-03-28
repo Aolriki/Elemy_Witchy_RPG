@@ -1,0 +1,1716 @@
+fileFormatVersion: 2
+guid: 437a63c978575fa4d84ab5700d76a11f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5218623547174601459
+    second: Cloud Paralax_0
+  - first:
+      213: -1200588814350530212
+    second: Cloud Paralax_1
+  - first:
+      213: 1664537170387192668
+    second: Cloud Paralax_2
+  - first:
+      213: 8727735727307621168
+    second: Cloud Paralax_3
+  - first:
+      213: 7852422516983376161
+    second: Cloud Paralax_4
+  - first:
+      213: -6007505791691260984
+    second: Cloud Paralax_5
+  - first:
+      213: 4009587781055668328
+    second: Cloud Paralax_6
+  - first:
+      213: -4768130660286740921
+    second: Cloud Paralax_7
+  - first:
+      213: -4359468856238045956
+    second: Cloud Paralax_8
+  - first:
+      213: 2555569294870749315
+    second: Cloud Paralax_9
+  - first:
+      213: 3649734636880803840
+    second: Cloud Paralax_10
+  - first:
+      213: -4979349387055092716
+    second: Cloud Paralax_11
+  - first:
+      213: -2257036130414328177
+    second: Cloud Paralax_12
+  - first:
+      213: -2293619460092178140
+    second: Cloud Paralax_13
+  - first:
+      213: 3707215711225562334
+    second: Cloud Paralax_14
+  - first:
+      213: 1292013745090389593
+    second: Cloud Paralax_15
+  - first:
+      213: -1008719903597737163
+    second: Cloud Paralax_16
+  - first:
+      213: 1147373958464101054
+    second: Cloud Paralax_17
+  - first:
+      213: 4166271538781543369
+    second: Cloud Paralax_18
+  - first:
+      213: -4592289220235227614
+    second: Cloud Paralax_19
+  - first:
+      213: -530864782374256435
+    second: Cloud Paralax_20
+  - first:
+      213: -5232113333690924041
+    second: Cloud Paralax_21
+  - first:
+      213: 5752834321440269193
+    second: Cloud Paralax_22
+  - first:
+      213: -4907892463506454126
+    second: Cloud Paralax_23
+  - first:
+      213: 8650374440153324888
+    second: Cloud Paralax_24
+  - first:
+      213: -5916934570379389092
+    second: Cloud Paralax_25
+  - first:
+      213: 5146288273002400706
+    second: Cloud Paralax_26
+  - first:
+      213: 2432072850337574822
+    second: Cloud Paralax_27
+  - first:
+      213: -5030032965229708
+    second: Cloud Paralax_28
+  - first:
+      213: -811045154698443067
+    second: Cloud Paralax_29
+  - first:
+      213: -2217285914451480507
+    second: Cloud Paralax_30
+  - first:
+      213: 2667262250623815415
+    second: Cloud Paralax_31
+  - first:
+      213: 6501054243897482939
+    second: Cloud Paralax_32
+  - first:
+      213: -7920036710227905810
+    second: Cloud Paralax_33
+  - first:
+      213: 6340032229662211571
+    second: Cloud Paralax_34
+  - first:
+      213: 7410197394264972336
+    second: Cloud Paralax_35
+  - first:
+      213: 1640626129548325971
+    second: Cloud Paralax_36
+  - first:
+      213: -555118070596999432
+    second: Cloud Paralax_37
+  - first:
+      213: -7425667784978853599
+    second: Cloud Paralax_38
+  - first:
+      213: 1376687828672650630
+    second: Cloud Paralax_39
+  - first:
+      213: -7411184362192589895
+    second: Cloud Paralax_40
+  - first:
+      213: -1641057679183147945
+    second: Cloud Paralax_41
+  - first:
+      213: -4775556453639183956
+    second: Cloud Paralax_42
+  - first:
+      213: -4057857882405046177
+    second: Cloud Paralax_43
+  - first:
+      213: -8194917921118942358
+    second: Cloud Paralax_44
+  - first:
+      213: 7174442737507948374
+    second: Cloud Paralax_45
+  - first:
+      213: 6937386631523554173
+    second: Cloud Paralax_46
+  - first:
+      213: 4270238149287374405
+    second: Cloud Paralax_47
+  - first:
+      213: 3162055318113178785
+    second: Cloud Paralax_48
+  - first:
+      213: -5558945608744398855
+    second: Cloud Paralax_49
+  - first:
+      213: 2135870419578314044
+    second: Cloud Paralax_50
+  - first:
+      213: -2309567609637289094
+    second: Cloud Paralax_51
+  - first:
+      213: 6529447049961868972
+    second: Cloud Paralax_52
+  - first:
+      213: 888660661035847474
+    second: Cloud Paralax_53
+  - first:
+      213: -325399742696322840
+    second: Cloud Paralax_54
+  - first:
+      213: 137576458334875482
+    second: Cloud Paralax_55
+  - first:
+      213: -1001981966490634978
+    second: Cloud Paralax_56
+  - first:
+      213: -8820913231786765064
+    second: Cloud Paralax_57
+  - first:
+      213: -2354715398714012940
+    second: Cloud Paralax_58
+  - first:
+      213: -1860632463304832294
+    second: Cloud Paralax_59
+  - first:
+      213: -1619466029762222235
+    second: Cloud Paralax_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cloud Paralax_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1412
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2c4d977764c6840800000000000000
+      internalID: 5218623547174601459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1265
+        width: 338
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59445795d6a65fe0800000000000000
+      internalID: -1200588814350530212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_2
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 1222
+        width: 510
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bcc54ccbf991710800000000000000
+      internalID: 1664537170387192668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_3
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1328
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03308a707652f1970800000000000000
+      internalID: 8727735727307621168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_4
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 1327
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129a21fdca869fc60800000000000000
+      internalID: 7852422516983376161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_5
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1333
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbf324cf4d01aca0800000000000000
+      internalID: -6007505791691260984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_6
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1331
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860e199d7dae4a730800000000000000
+      internalID: 4009587781055668328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_7
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1328
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746c5f65d6234ddb0800000000000000
+      internalID: -4768130660286740921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_8
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1334
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf48d863c2e0083c0800000000000000
+      internalID: -4359468856238045956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_9
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1266
+        width: 626
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380aaa3dbb4377320800000000000000
+      internalID: 2555569294870749315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 911
+        width: 1043
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00838bba05676a230800000000000000
+      internalID: 3649734636880803840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_11
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1167
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ca50c3d1cc5eab0800000000000000
+      internalID: -4979349387055092716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_12
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 1096
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f868e6109956da0e0800000000000000
+      internalID: -2257036130414328177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_13
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1008
+        width: 574
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421584fc04d6b20e0800000000000000
+      internalID: -2293619460092178140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_14
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 986
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4c8553c0da27330800000000000000
+      internalID: 3707215711225562334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_15
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 974
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956e801e7a72ee110800000000000000
+      internalID: 1292013745090389593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_16
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 956
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bc034979e4002f0800000000000000
+      internalID: -1008719903597737163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_17
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 971
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba59c2498a4cef00800000000000000
+      internalID: 1147373958464101054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_18
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 974
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbd4e204e191d930800000000000000
+      internalID: 4166271538781543369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_19
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 965
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e06020949e440c0800000000000000
+      internalID: -4592289220235227614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_20
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 955
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc041d60b4df1a8f0800000000000000
+      internalID: -530864782374256435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 737
+        width: 383
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f384c8d4acc367b0800000000000000
+      internalID: -5232113333690924041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_22
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 706
+        width: 395
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9836f15e55c26df40800000000000000
+      internalID: 5752834321440269193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_23
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 96
+        width: 1483
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29981ecbec9a3ebb0800000000000000
+      internalID: -4907892463506454126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_24
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 581
+        width: 320
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d157fb8bd4c0870800000000000000
+      internalID: 8650374440153324888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_25
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 680
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57de458b53d2eda0800000000000000
+      internalID: -5916934570379389092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_26
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 686
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb01180be94b6740800000000000000
+      internalID: 5146288273002400706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_27
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 683
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af2e382f5570c120800000000000000
+      internalID: 2432072850337574822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_28
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 686
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47326ef26312eeff0800000000000000
+      internalID: -5030032965229708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_29
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 588
+        width: 279
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6c5699ab69eb4f0800000000000000
+      internalID: -811045154698443067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_30
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 624
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54074af553e9a31e0800000000000000
+      internalID: -2217285914451480507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 586
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fecd3b92e4040520800000000000000
+      internalID: 2667262250623815415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_32
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 588
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe1e090462683a50800000000000000
+      internalID: 6501054243897482939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_33
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 587
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2ffcef290661290800000000000000
+      internalID: -7920036710227905810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_34
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 597
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd3b81d8b15cf750800000000000000
+      internalID: 6340032229662211571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_35
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 587
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c50b8e44f46d660800000000000000
+      internalID: 7410197394264972336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_36
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 595
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354b3fcb5cca4c610800000000000000
+      internalID: 1640626129548325971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_37
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 583
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f66aa15e03db48f0800000000000000
+      internalID: -555118070596999432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_38
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 576
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12116401e7ab2f890800000000000000
+      internalID: -7425667784978853599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_39
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 587
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d13a2494afa1310800000000000000
+      internalID: 1376687828672650630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 585
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bba496b61f262990800000000000000
+      internalID: -7411184362192589895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_41
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 573
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c8c584cbac939e0800000000000000
+      internalID: -1641057679183147945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 587
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1230815b0d9bdb0800000000000000
+      internalID: -4775556453639183956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_43
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 580
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f587a3261c79fa7c0800000000000000
+      internalID: -4057857882405046177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 586
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b093cb19dc54e80800000000000000
+      internalID: -8194917921118942358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_45
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 580
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657da8e68adb09360800000000000000
+      internalID: 7174442737507948374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_46
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 586
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d735181b26c864060800000000000000
+      internalID: 6937386631523554173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_47
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 579
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e689ad8fee24b30800000000000000
+      internalID: 4270238149287374405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_48
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 574
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4554cfe80e1eb20800000000000000
+      internalID: 3162055318113178785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_49
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 568
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff8211eb68aad2b0800000000000000
+      internalID: -5558945608744398855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_50
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 560
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dda3d84d224ad10800000000000000
+      internalID: 2135870419578314044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_51
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 566
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7342d2ee74c2ffd0800000000000000
+      internalID: -2309567609637289094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_52
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 573
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae03b85f714d9a50800000000000000
+      internalID: 6529447049961868972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_53
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 573
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fc7e2b928255c00800000000000000
+      internalID: 888660661035847474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_54
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 564
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8059678a2fb7bf0800000000000000
+      internalID: -325399742696322840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_55
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 560
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fa1885f05c8e100800000000000000
+      internalID: 137576458334875482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_56
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 565
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e157affc5be3812f0800000000000000
+      internalID: -1001981966490634978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_57
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 553
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f49ec0a622d59580800000000000000
+      internalID: -8820913231786765064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 659
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa428812de525fd0800000000000000
+      internalID: -2354715398714012940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_59
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 176
+        width: 333
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adac727f1a4bd26e0800000000000000
+      internalID: -1860632463304832294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud Paralax_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567e53ae9308689e0800000000000000
+      internalID: -1619466029762222235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cloud Paralax_0: 5218623547174601459
+      Cloud Paralax_1: -1200588814350530212
+      Cloud Paralax_10: 3649734636880803840
+      Cloud Paralax_11: -4979349387055092716
+      Cloud Paralax_12: -2257036130414328177
+      Cloud Paralax_13: -2293619460092178140
+      Cloud Paralax_14: 3707215711225562334
+      Cloud Paralax_15: 1292013745090389593
+      Cloud Paralax_16: -1008719903597737163
+      Cloud Paralax_17: 1147373958464101054
+      Cloud Paralax_18: 4166271538781543369
+      Cloud Paralax_19: -4592289220235227614
+      Cloud Paralax_2: 1664537170387192668
+      Cloud Paralax_20: -530864782374256435
+      Cloud Paralax_21: -5232113333690924041
+      Cloud Paralax_22: 5752834321440269193
+      Cloud Paralax_23: -4907892463506454126
+      Cloud Paralax_24: 8650374440153324888
+      Cloud Paralax_25: -5916934570379389092
+      Cloud Paralax_26: 5146288273002400706
+      Cloud Paralax_27: 2432072850337574822
+      Cloud Paralax_28: -5030032965229708
+      Cloud Paralax_29: -811045154698443067
+      Cloud Paralax_3: 8727735727307621168
+      Cloud Paralax_30: -2217285914451480507
+      Cloud Paralax_31: 2667262250623815415
+      Cloud Paralax_32: 6501054243897482939
+      Cloud Paralax_33: -7920036710227905810
+      Cloud Paralax_34: 6340032229662211571
+      Cloud Paralax_35: 7410197394264972336
+      Cloud Paralax_36: 1640626129548325971
+      Cloud Paralax_37: -555118070596999432
+      Cloud Paralax_38: -7425667784978853599
+      Cloud Paralax_39: 1376687828672650630
+      Cloud Paralax_4: 7852422516983376161
+      Cloud Paralax_40: -7411184362192589895
+      Cloud Paralax_41: -1641057679183147945
+      Cloud Paralax_42: -4775556453639183956
+      Cloud Paralax_43: -4057857882405046177
+      Cloud Paralax_44: -8194917921118942358
+      Cloud Paralax_45: 7174442737507948374
+      Cloud Paralax_46: 6937386631523554173
+      Cloud Paralax_47: 4270238149287374405
+      Cloud Paralax_48: 3162055318113178785
+      Cloud Paralax_49: -5558945608744398855
+      Cloud Paralax_5: -6007505791691260984
+      Cloud Paralax_50: 2135870419578314044
+      Cloud Paralax_51: -2309567609637289094
+      Cloud Paralax_52: 6529447049961868972
+      Cloud Paralax_53: 888660661035847474
+      Cloud Paralax_54: -325399742696322840
+      Cloud Paralax_55: 137576458334875482
+      Cloud Paralax_56: -1001981966490634978
+      Cloud Paralax_57: -8820913231786765064
+      Cloud Paralax_58: -2354715398714012940
+      Cloud Paralax_59: -1860632463304832294
+      Cloud Paralax_6: 4009587781055668328
+      Cloud Paralax_60: -1619466029762222235
+      Cloud Paralax_7: -4768130660286740921
+      Cloud Paralax_8: -4359468856238045956
+      Cloud Paralax_9: 2555569294870749315
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
