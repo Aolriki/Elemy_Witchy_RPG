@@ -8,6 +8,8 @@ public class DialogueCharacter : Interactable
 {
     public CharacterName characterName;
 
+    [SerializeField] private bool nonRepeatableDialogue = false;
+
     [SerializeField] private string specificDialogueName;
 
     [SerializeField] private bool shouldRepeatMonologues = true;
@@ -56,11 +58,19 @@ public class DialogueCharacter : Interactable
         DialogueManager.instance.OnDialogueEnd -= EndDialogue;
         PlayerController.instance.Possess();
 
-        canInteract = true;
-        OnCanInteract();
+        if (nonRepeatableDialogue)
+        {
+            canInteract = false;
+            OnCantInteract();
+        }
+        else
+        {
+            canInteract = true;
+            OnCanInteract();
+        }
 
         if (!monologueEnded && monologueSentences.Count > 0)
-              Monologue();
+            Monologue();
 
         OnEndDialogue?.Invoke();
     }

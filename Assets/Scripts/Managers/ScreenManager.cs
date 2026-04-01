@@ -13,6 +13,7 @@ public enum Screens
     PressAnyButton,
     MainMenu,
     SelectFile,
+    ArchetypeSelection,
     Gameplay,
     Pause,
     GameOver,
@@ -40,9 +41,13 @@ public class ScreenManager : MonoBehaviour
 
     [Header("MainMenu")]
     [SerializeField] private GameObject mainMenuPanel;
+    [SerializeField] private GameObject mainMenuFirstSelected; // Botão selecionado ao abrir o Main Menu
 
     [Header("SelectFile")]
     [SerializeField] private GameObject selectFilePanel;
+
+    [Header("ArchetypeSelection")]
+    [SerializeField] private GameObject archetypeSelectionPanel;
 
     [Header("Gameplay")]
     [SerializeField] private GameObject hudPanel;
@@ -153,6 +158,11 @@ public class ScreenManager : MonoBehaviour
                 DesactivateAllScreens();
                 mainMenuPanel.SetActive(true);
                 DisablePlayerControls();
+
+                // Seleciona o primeiro botão do Main Menu para navegação por controle
+                if (mainMenuFirstSelected != null)
+                    EventSystem.current?.SetSelectedGameObject(mainMenuFirstSelected);
+
                 break;
 
             case Screens.SelectFile:
@@ -160,18 +170,34 @@ public class ScreenManager : MonoBehaviour
                 selectFilePanel.SetActive(true);
                 break;
 
+            case Screens.ArchetypeSelection:
+                DesactivateAllScreens();
+                archetypeSelectionPanel.SetActive(true);
+                PlayerController.instance?.playerInput.SwitchCurrentActionMap("UI");
+                break;
+
             case Screens.Gameplay:
                 DesactivateAllScreens();
+
+                if (!ArchetypeManager.Instance.HasSelectedArchetype())
+                {
+                    archetypeSelectionPanel.SetActive(true);
+                    PlayerController.instance?.playerInput.SwitchCurrentActionMap("UI");
+                    return;
+                }
+
                 hudPanel.SetActive(true);
                 EnablePlayerControls();
+
+                // Troca o action map sempre que volta ao Gameplay, independente de onde veio
+                PlayerController.instance?.playerInput.SwitchCurrentActionMap("Player");
 
                 if (lastScreen == Screens.Pause)
                 {
                     Time.timeScale = 1f;
-                    PlayerController.instance?.playerInput.SwitchCurrentActionMap("Player");
-                    AudioManager.Instance.ResumeMusic(); // retoma de onde parou
+                    AudioManager.Instance.ResumeMusic();
                 }
-                
+
                 break;
 
             case Screens.Pause:
@@ -179,7 +205,7 @@ public class ScreenManager : MonoBehaviour
                 pausePanel.SetActive(true);
                 Time.timeScale = 0f;
                 PlayerController.instance?.playerInput.SwitchCurrentActionMap("UI");
-                AudioManager.Instance.PauseMusic(); // fade out e pausa
+                AudioManager.Instance.PauseMusic();
                 break;
 
             case Screens.GameOver:
@@ -193,6 +219,7 @@ public class ScreenManager : MonoBehaviour
     {
         mainMenuPanel.SetActive(false);
         selectFilePanel.SetActive(false);
+        archetypeSelectionPanel.SetActive(false);
         hudPanel.SetActive(false);
         pausePanel.SetActive(false);
     }
@@ -211,8 +238,18 @@ public class ScreenManager : MonoBehaviour
 
     private IEnumerator StartGameDelayed()
     {
-        yield return new WaitForSecondsRealtime(1f);
-        ChangeScreen(Screens.Gameplay);
+        yield return new WaitForSecondsRealtime(2f);
+
+        // Força o Gameplay sem interceptar, independente do arquétipo
+        DesactivateAllScreens();
+        hudPanel.SetActive(true);
+        EnablePlayerControls();
+        currentScreen = Screens.Gameplay;
+
+        // Pequena pausa para o jogador ver o HUD antes do painel abrir
+        yield return new WaitForSecondsRealtime(0.5f);
+
+        ChangeScreen(Screens.ArchetypeSelection);
     }
 
     public void QuitGame()

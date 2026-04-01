@@ -4,7 +4,6 @@ using System;
 public class ArchetypeManager : MonoBehaviour
 {
     public static ArchetypeManager Instance { get; private set; }
-
     public event Action onArchetypeSelected;
 
     [Header("Arquétipos Disponíveis")]
@@ -21,7 +20,6 @@ public class ArchetypeManager : MonoBehaviour
         Instance = this;
     }
 
-    // Chamado pelos botões da interface
     public void SelectCautelosa() => SelectArchetype(archetypeCautelosa);
     public void SelectExemplar() => SelectArchetype(archetypeExemplar);
     public void SelectProativa() => SelectArchetype(archetypeProativa);
@@ -39,7 +37,11 @@ public class ArchetypeManager : MonoBehaviour
         onArchetypeSelected?.Invoke();
     }
 
-    // Reseta a escolha (permite selecionar novamente)
+    public bool HasSelectedArchetype()
+    {
+        return HasArchetype;
+    }
+
     public void ResetArchetype()
     {
         CurrentArchetype = null;

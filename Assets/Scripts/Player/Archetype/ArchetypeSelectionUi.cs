@@ -57,7 +57,6 @@ public class ArchetypeSelectionUI : MonoBehaviour
     private bool _isHolding = false;
     private Coroutine _blinkCoroutine;
 
-
     private void Awake()
     {
         _archetypes = new ArchetypeData[]
@@ -93,8 +92,6 @@ public class ArchetypeSelectionUI : MonoBehaviour
     {
         if (_sliders == null) return;
 
-        PlayerController.instance?.playerInput.SwitchCurrentActionMap("UI");
-
         _selectedIndex = 0;
         _isHolding = false;
 
@@ -118,11 +115,10 @@ public class ArchetypeSelectionUI : MonoBehaviour
         HandleSliderFill();
     }
 
-
     public void OnNavigate(InputAction.CallbackContext context)
     {
         if (!context.performed || _isHolding) return;
-        if (!selectionPanel.activeSelf) return; // <- guard
+        if (!selectionPanel.activeSelf) return;
 
         Vector2 dir = context.ReadValue<Vector2>();
 
@@ -134,7 +130,7 @@ public class ArchetypeSelectionUI : MonoBehaviour
 
     public void OnSubmit(InputAction.CallbackContext context)
     {
-        if (!selectionPanel.activeSelf) return; // <- guard
+        if (!selectionPanel.activeSelf) return;
 
         if (context.performed)
             _isHolding = true;
@@ -160,16 +156,13 @@ public class ArchetypeSelectionUI : MonoBehaviour
         archetypeDescriptionText.text = current.description;
         archetypeIllustration.sprite = current.illustration;
 
-        timerBaseStatusText.text = current.elemyTimer.ToString("F0"); 
-        damageBaseStatusText.text = current.damage.ToString();         
-        healthBaseStatusText.text = current.maxHealth.ToString("F0"); 
-
+        timerBaseStatusText.text = current.elemyTimer.ToString("F0");
+        damageBaseStatusText.text = current.damage.ToString();
+        healthBaseStatusText.text = current.maxHealth.ToString("F0");
 
         for (int i = 0; i < _indicators.Length; i++)
             _indicators[i].SetActive(i == _selectedIndex);
     }
-
- 
 
     private void HandleSliderFill()
     {
@@ -205,12 +198,11 @@ public class ArchetypeSelectionUI : MonoBehaviour
             case 2: ArchetypeManager.Instance.SelectProativa(); break;
         }
 
-        PlayerController.instance?.playerInput.SwitchCurrentActionMap("Player");
-        selectionPanel.SetActive(false);
-
         AudioManager.Instance.PlayEffect(SFXID.SelectArchetype);
-    }
 
+        // Delega ao ScreenManager, que cuida de fechar o painel e trocar o action map
+        ScreenManager.Instance.ChangeScreen(Screens.Gameplay);
+    }
 
     private void StartBlinking()
     {

@@ -15,7 +15,7 @@ MonoBehaviour:
   archetypeName: Proativa
   description: "\"Nenhum sonho se realiza sozinho, \xE9 preciso correr alguns riscos!\"\n-
     Causa mais dano, mas tem menos vida -"
-  illustration: {fileID: 0}
+  illustration: {fileID: 21300000, guid: 92b884e153dc1884582b99e718140c89, type: 3}
   elemyTimer: 6
   damage: 5
   maxHealth: 3

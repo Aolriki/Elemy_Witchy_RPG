@@ -1,17 +1,18 @@
 using UnityEngine;
-using UnityEngine.Events;
 
 public class InsightInteractable : Interactable
 {
-    [SerializeField] private SpriteRenderer spriteRenderer;
+    [Header("Graphic Child")]
+    [SerializeField] private SpriteRenderer graphicRenderer;
 
-    private static readonly Color ColorAvailable = new Color(1f, 0.85f, 0.1f);
-    private static readonly Color ColorCollected = new Color(0.75f, 0.75f, 0.75f);
+    [Header("Sprites")]
+    [SerializeField] private Sprite spriteAvailable;
+    [SerializeField] private Sprite spriteCollected;
 
     private void Start()
     {
-        if (spriteRenderer != null)
-            spriteRenderer.color = ColorAvailable;
+        if (graphicRenderer != null && spriteAvailable != null)
+            graphicRenderer.sprite = spriteAvailable;
     }
 
     public override void Interact()
@@ -19,8 +20,8 @@ public class InsightInteractable : Interactable
         base.Interact();
         OnInterect?.Invoke();
 
-        if (spriteRenderer != null)
-            spriteRenderer.color = ColorCollected;
+        if (graphicRenderer != null && spriteCollected != null)
+            graphicRenderer.sprite = spriteCollected;
 
         canInteract = false;
         OnCantInteract();

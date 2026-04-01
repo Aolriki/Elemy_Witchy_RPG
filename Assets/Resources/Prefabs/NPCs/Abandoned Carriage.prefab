@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 312242580268946247}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.95, z: 0}
+  m_LocalPosition: {x: -1.1, y: 3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 904245134966220389}
   - component: {fileID: 8204680250944670655}
   - component: {fileID: 559179933227315914}
+  - component: {fileID: 5229139406587533371}
   m_Layer: 0
   m_Name: Abandoned Carriage
   m_TagString: Untagged
@@ -59,7 +60,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331038509154294783}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 227.02, y: 0.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -81,8 +82,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaac89dd2212c514abb97b1cdd02cee0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnInterect:
+    m_PersistentCalls:
+      m_Calls: []
   interactionIcon: {fileID: 8835802598459555182}
-  characterName: 5
+  canInteract: 1
+  characterName: 1
   specificDialogueName: Beatriny_Mono 1
   shouldRepeatMonologues: 0
   monologueSentences: []
@@ -92,7 +97,43 @@ MonoBehaviour:
   isAlive: 0
   OnEndDialogue:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5229139406587533371}
+        m_TargetAssemblyTypeName: SpawnTrigger, Assembly-CSharp
+        m_MethodName: Activate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 904245134966220389}
+        m_TargetAssemblyTypeName: DialogueCharacter, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8204680250944670655}
+        m_TargetAssemblyTypeName: UnityEngine.BoxCollider2D, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &8204680250944670655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -127,7 +168,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.046913147, y: 2.1886601}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -137,7 +178,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 9.0218315, y: 4.87029}
+  m_Size: {x: 2.6522064, y: 4.2737913}
   m_EdgeRadius: 0
 --- !u!210 &559179933227315914
 SortingGroup:
@@ -149,8 +190,25 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_SortAtRoot: 0
+--- !u!114 &5229139406587533371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331038509154294783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3831325948565644eb1844d5ef60bba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerID: Combate Tutorial
+  targetSpawner: {fileID: 0}
+  onTriggerActivated:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2732886686057351520
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,8 +235,8 @@ Transform:
   m_GameObject: {fileID: 2732886686057351520}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 5, z: 1}
+  m_LocalPosition: {x: 0.63, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3558232738534167775}
@@ -227,8 +285,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4716981, g: 0.10012461, b: 0.12193282, a: 0.7058824}
+  m_Sprite: {fileID: 21300000, guid: ddd8bae5edb3e9b48a3606e1e40ad70f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -264,7 +322,7 @@ Transform:
   m_GameObject: {fileID: 8835802598459555182}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.14, z: 0}
+  m_LocalPosition: {x: -1.1, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -314,8 +372,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: -3872712853007575539, guid: 429441aef54d5bc4d9fc67fd7a19ef79, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.747118, a: 1}
+  m_Sprite: {fileID: 21300000, guid: dbf97d8b7b68a21488d557d5a7d3fdbe, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
