@@ -5,6 +5,30 @@ public class ElementalHealth : Health
     [Header("Elemental Type")]
     public EElements enemyElement;
 
+    private bool alreadyDied = false;
+
+    protected override void Start()
+    {
+        base.Start();
+        EnemyRespawnManager.instance.Register(this);
+    }
+
+    public override void Death()
+    {
+        OnDeath?.Invoke();
+
+        if (!alreadyDied)
+        {
+            alreadyDied = true;
+            Drop();
+            // chama o InsightReward apenas na primeira morte
+            if (TryGetComponent<InsightReward>(out var insight))
+                insight.GiveInsight();
+        }
+
+        transform.parent.gameObject.SetActive(false);
+    }
+
     public override void Damage(float damage, Vector3 damageDirection, bool heavyAttack)
     {
         float modifiedDamage = ApplyElementalModifier(damage);
@@ -14,7 +38,6 @@ public class ElementalHealth : Health
     private float ApplyElementalModifier(float rawDamage)
     {
         EElements attackerElement = Player.instance.currentElement;
-
         float multiplier = enemyElement switch
         {
             EElements.Igna => attackerElement switch
@@ -47,8 +70,6 @@ public class ElementalHealth : Health
             },
             _ => 1.0f
         };
-
-        Debug.Log($"Enemy: {enemyElement} | Attacker: {attackerElement} | x{multiplier} | {rawDamage} -> {rawDamage * multiplier}");
         return rawDamage * multiplier;
     }
 }

@@ -2,33 +2,32 @@ using UnityEngine;
 
 public class Igtaurus : EnemyClass
 {
-    [Header("Detection")]
+    [Header("Detection — Raycast")]
     public float detectionRange = 6f;
-    
+    [Tooltip("Offset vertical a partir do pivot (base) para a origem do raycast.")]
+    public float detectionHeightOffset = 0.5f;
+    public LayerMask playerLayer;
 
     [Header("Dash")]
     public float dashDistance = 5f;
     public float dashSpeed = 12f;
-    public float windUpTime = 0.8f;     // Tempo parado antes do dash
-    private float dashTimer = 0f;
-    public float maxDashTime = 0.5f; // tempo máximo do dash
+    public float windUpTime = 0.8f;
+    public float maxDashTime = 0.5f;
 
     [Header("Detection VFX")]
     public GameObject detectionIcon;
 
-    // Estado interno
     private enum State { Patrolling, WindUp, Dashing, CoolDown }
     private State currentState = State.Patrolling;
 
     private float windUpTimer = 0f;
+    private float dashTimer = 0f;
     private Vector2 dashTarget;
-    private float facingDirection = 1f; // 1 = direita, -1 = esquerda
-    private LayerMask playerLayer;
+    private float facingDirection = 1f;
 
     protected override void Start()
     {
         base.Start();
-        playerLayer = LayerMask.GetMask("Player"); // Busca a layer "Player" automaticamente
     }
 
     protected override void Update()
@@ -47,6 +46,7 @@ public class Igtaurus : EnemyClass
             case State.Dashing:
                 HandleDash();
                 break;
+
             case State.CoolDown:
                 HandleCoolDown();
                 break;
@@ -56,19 +56,18 @@ public class Igtaurus : EnemyClass
     #region Detecção
     private void DetectPlayer()
     {
-        // Teste SEM filtro de layer — se funcionar, o problema é na playerLayer
-        Collider2D hit = Physics2D.OverlapCircle(transform.position, detectionRange, playerLayer);
+        // Só detecta se o jogador estiver dentro da zona de patrulha
+        Vector2 origin = (Vector2)transform.position + Vector2.up * detectionHeightOffset;
+        Vector2 direction = Vector2.right * facingDirection;
 
-        if (hit == null) return;
+        RaycastHit2D hit = Physics2D.Raycast(origin, direction, detectionRange, playerLayer);
 
-        // Checa se o jogador está na frente com base no facing direction
-        float directionToPlayer = hit.transform.position.x - transform.position.x;
-        bool playerIsInFront = Mathf.Sign(directionToPlayer) == Mathf.Sign(facingDirection);
+        if (hit.collider == null) return;
 
-        if (!playerIsInFront) return;
+        // Jogador precisa estar dentro da zona para disparar o ataque
+        if (!IsInsidePatrolZone(hit.transform.position.x)) return;
 
-        // Jogador avistado — inicia wind up
-        Debug.Log("Player spotted!");
+        Debug.Log("Igtaurus: jogador avistado — iniciando wind up!");
         currentState = State.WindUp;
         windUpTimer = windUpTime;
 
@@ -83,8 +82,8 @@ public class Igtaurus : EnemyClass
 
         if (windUpTimer <= 0f)
         {
-            // Define o alvo do dash com base na direção que está olhando
             dashTarget = (Vector2)transform.position + new Vector2(facingDirection * dashDistance, 0f);
+            dashTimer = 0f;
             currentState = State.Dashing;
 
             if (detectionIcon != null) detectionIcon.SetActive(false);
@@ -115,13 +114,15 @@ public class Igtaurus : EnemyClass
         }
     }
     #endregion
-    #region Cooldown
+
+    #region CoolDown
     private void HandleCoolDown()
     {
         windUpTimer -= Time.deltaTime;
+
         if (windUpTimer <= 0f)
         {
-            Debug.Log("Cooldown finished — returning to patrol.");
+            Debug.Log("Igtaurus: cooldown finalizado — voltando a patrulhar.");
             currentState = State.Patrolling;
             StartPatrol();
         }
@@ -131,21 +132,23 @@ public class Igtaurus : EnemyClass
     protected override void SetFacingDirection(float directionX)
     {
         if (directionX == 0) return;
-        facingDirection = Mathf.Sign(directionX); // Agora atualiza corretamente
+        facingDirection = Mathf.Sign(directionX);
         base.SetFacingDirection(directionX);
     }
 
     #region Gizmos
-    private void OnDrawGizmosSelected()
+    protected override void OnDrawGizmosSelected()
     {
-        // Raio de detecção frontal
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, detectionRange);
+        base.OnDrawGizmosSelected();
 
-        // Linha indicando a direção e distância do dash
+        // Amarelo: detecção — respeita o offset vertical
+        Vector3 rayOrigin = transform.position + Vector3.up * detectionHeightOffset;
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawLine(rayOrigin, rayOrigin + new Vector3(facingDirection * detectionRange, 0f, 0f));
+
+        // Vermelho: distância do dash — parte do pivot (chão)
         Gizmos.color = Color.red;
-        Vector3 dashDir = new Vector3(facingDirection * dashDistance, 0f, 0f);
-        Gizmos.DrawLine(transform.position, transform.position + dashDir);
+        Gizmos.DrawLine(transform.position, transform.position + new Vector3(facingDirection * dashDistance, 0f, 0f));
     }
     #endregion
 }

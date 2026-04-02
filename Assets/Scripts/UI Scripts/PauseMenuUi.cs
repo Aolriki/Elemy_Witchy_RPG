@@ -12,11 +12,6 @@ public class PauseMenuUI : MonoBehaviour
     [SerializeField] private GameObject questPage;
     [SerializeField] private GameObject upgradePage;
 
-    [Header("Page Indicators")]
-    [SerializeField] private GameObject pageIndicatorSistema;
-    [SerializeField] private GameObject pageIndicatorQuest;
-    [SerializeField] private GameObject pageIndicatorAtributos;
-
     [Header("Navigation Buttons")]
     [SerializeField] private Button buttonSistema;
     [SerializeField] private Button buttonQuest;
@@ -25,6 +20,9 @@ public class PauseMenuUI : MonoBehaviour
     [Header("Foco Inicial")]
     [SerializeField] private GameObject firstSelected;
     [SerializeField] private GameObject firstSystemSelected;
+
+    [Header("Input Display")]
+    [SerializeField] private GameObject pauseBookIcon;
 
     // Upgrade Page
 
@@ -63,14 +61,11 @@ public class PauseMenuUI : MonoBehaviour
     [SerializeField] private TMP_Text questNameText;
     [SerializeField] private TMP_Text questDescriptionText;
 
-
     private const int MAX_LEVEL = 5;
     private int _selectedIndex = 0;
     private Coroutine _blinkCoroutine;
     private GameObject[] _pins;
     private Image[] _pinImages;
-
-    // Estado geral
 
     private bool _isPageOpen = false;
     private string _currentPage = "";
@@ -96,7 +91,6 @@ public class PauseMenuUI : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(firstSelected);
         ClosePage();
 
-        // Assina o evento de troca de quest e atualiza a UI com a quest atual
         if (QuestManager.Instance != null)
         {
             QuestManager.Instance.OnQuestChanged += UpdateQuestUI;
@@ -112,7 +106,6 @@ public class PauseMenuUI : MonoBehaviour
 
         StopBlinking();
 
-        // Cancela a assinatura do evento de quest
         if (QuestManager.Instance != null)
             QuestManager.Instance.OnQuestChanged -= UpdateQuestUI;
 
@@ -133,29 +126,27 @@ public class PauseMenuUI : MonoBehaviour
     public void OpenPage(string pageName)
     {
         DeactivateAllPages();
-        DeactivateAllIndicators();
 
         _currentPage = pageName;
         _isPageOpen = true;
         SetLeftPageInteractable(false);
 
+        if (pauseBookIcon != null) pauseBookIcon.SetActive(false);
+
         switch (pageName)
         {
             case "System":
                 systemPage.SetActive(true);
-                pageIndicatorSistema.SetActive(true);
                 EventSystem.current.SetSelectedGameObject(null);
                 EventSystem.current.SetSelectedGameObject(firstSystemSelected);
                 break;
 
             case "Quest":
                 questPage.SetActive(true);
-                pageIndicatorQuest.SetActive(true);
                 break;
 
             case "Attributes":
                 upgradePage.SetActive(true);
-                pageIndicatorAtributos.SetActive(true);
                 RefreshUpgradeUI();
                 _selectedIndex = 0;
                 UpdatePin();
@@ -166,10 +157,18 @@ public class PauseMenuUI : MonoBehaviour
 
     public void OnCancel(InputAction.CallbackContext context)
     {
-        if (!context.performed || !_isPageOpen) return;
-        EventSystem.current.SetSelectedGameObject(null);
-        EventSystem.current.SetSelectedGameObject(firstSelected);
-        ClosePage();
+        if (!context.performed) return;
+
+        if (_isPageOpen)
+        {
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(firstSelected);
+            ClosePage();
+        }
+        else
+        {
+            ScreenManager.Instance.ChangeScreen(Screens.Gameplay);
+        }
     }
 
     public void ClosePage()
@@ -178,8 +177,8 @@ public class PauseMenuUI : MonoBehaviour
             StopBlinking();
 
         DeactivateAllPages();
-        DeactivateAllIndicators();
         SetLeftPageInteractable(true);
+        if (pauseBookIcon != null) pauseBookIcon.SetActive(true);
 
         _isPageOpen = false;
         _currentPage = "";
@@ -192,41 +191,14 @@ public class PauseMenuUI : MonoBehaviour
         if (upgradePage != null) upgradePage.SetActive(false);
     }
 
-    private void DeactivateAllIndicators()
-    {
-        if (pageIndicatorSistema != null) pageIndicatorSistema.SetActive(false);
-        if (pageIndicatorQuest != null) pageIndicatorQuest.SetActive(false);
-        if (pageIndicatorAtributos != null) pageIndicatorAtributos.SetActive(false);
-    }
-
     private void SetLeftPageInteractable(bool interactable)
     {
-        float alpha = interactable ? 1f : 150f / 255f;
-        SetButtonState(buttonSistema, interactable, alpha);
-        SetButtonState(buttonQuest, interactable, alpha);
-        SetButtonState(buttonAtributos, interactable, alpha);
+        if (buttonSistema != null) buttonSistema.interactable = interactable;
+        if (buttonQuest != null) buttonQuest.interactable = interactable;
+        if (buttonAtributos != null) buttonAtributos.interactable = interactable;
     }
 
-    private void SetButtonState(Button button, bool interactable, float alpha)
-    {
-        if (button == null) return;
-
-        button.interactable = interactable;
-
-        Color c = button.image.color;
-        c.a = alpha;
-        button.image.color = c;
-
-        var tmp = button.GetComponentInChildren<TextMeshProUGUI>();
-        if (tmp != null)
-        {
-            Color tc = tmp.color;
-            tc.a = alpha;
-            tmp.color = tc;
-        }
-    }
-
-    //Upgrade: Input
+    // Upgrade: Input
 
     public void OnNavigate(InputAction.CallbackContext context)
     {
@@ -263,7 +235,7 @@ public class PauseMenuUI : MonoBehaviour
         AudioManager.Instance.PlayEffect(SFXID.SelectArchetype);
     }
 
-    //Upgrade: UI
+    // Upgrade: UI
 
     private void RefreshUpgradeUI()
     {
@@ -278,11 +250,9 @@ public class PauseMenuUI : MonoBehaviour
         int insight = InsightSystem.instance.insightPoints;
         insightPointsText.text = insight.ToString();
         noInsightText.gameObject.SetActive(insight < 1);
-        timerLevelText.text = LevelToInt(UpgradeManager.Instance.ElemyTimerLevel).ToString();
-        damageLevelText.text = LevelToInt(UpgradeManager.Instance.DamageLevel).ToString();
-        healthLevelText.text = LevelToInt(UpgradeManager.Instance.MaxHealthLevel).ToString();
-
-
+        timerLevelText.text = PlayerStatus.Instance.ElemyTimer.ToString("F0");
+        damageLevelText.text = PlayerStatus.Instance.Damage.ToString();
+        healthLevelText.text = PlayerStatus.Instance.MaxHealth.ToString("F0");
 
         bool hasInsight = insight >= 1;
         SetIconAlpha(elemyTimerIcon, hasInsight || elemyLevel >= MAX_LEVEL);
