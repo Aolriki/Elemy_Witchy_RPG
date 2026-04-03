@@ -159,6 +159,8 @@ public class PauseMenuUI : MonoBehaviour
     {
         if (!context.performed) return;
 
+        if (ScreenManager.Instance.currentScreen != Screens.Pause) return;
+
         if (_isPageOpen)
         {
             EventSystem.current.SetSelectedGameObject(null);

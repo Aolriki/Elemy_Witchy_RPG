@@ -5,19 +5,26 @@ using System;
 public class ArenaBattle : MonoBehaviour
 {
     [AddComponentMenu("")]
-    private class OnDestroyCallback : MonoBehaviour
+    private class OnDisableCallback : MonoBehaviour
     {
-        public event Action OnDestroyed;
+        public event Action OnDefeated;
+        private bool _hasBeenActivated;
 
-        private void OnDestroy()
+        private void OnEnable()
         {
-            OnDestroyed?.Invoke();
+            _hasBeenActivated = true;
+        }
+
+        private void OnDisable()
+        {
+            if (_hasBeenActivated)
+                OnDefeated?.Invoke();
         }
     }
 
     public UnityEvent OnMyChildrenDestroy;
-
     private int _childrenCount;
+    private bool _eventFired;
 
     private void Start()
     {
@@ -27,26 +34,31 @@ public class ArenaBattle : MonoBehaviour
     public void RegisterAllChildren()
     {
         _childrenCount = 0;
+        _eventFired = false;
 
         foreach (Transform child in transform)
         {
             _childrenCount++;
-
-            var destroyer = child.gameObject.AddComponent<OnDestroyCallback>();
-            destroyer.OnDestroyed += OnChildDestroyed;
+            var callback = child.gameObject.AddComponent<OnDisableCallback>();
+            callback.OnDefeated += OnChildDefeated;
         }
     }
 
-    private void OnChildDestroyed()
+    private void OnChildDefeated()
     {
         _childrenCount--;
-
         if (_childrenCount <= 0)
-            MyChildrenDestroy();
+            TriggerVictory();
     }
 
-    public void MyChildrenDestroy()
+    private void TriggerVictory()
     {
+        if (_eventFired) return;
+        _eventFired = true;
+
+        foreach (Transform child in transform)
+            Destroy(child.gameObject);
+
         OnMyChildrenDestroy?.Invoke();
     }
 }

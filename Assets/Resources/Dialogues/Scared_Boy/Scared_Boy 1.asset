@@ -21,7 +21,7 @@ MonoBehaviour:
     sentenceAction: {fileID: 0}
   - talker: 3
     sentenceText: "Espera, esse chap\xE9u\u2026 Voc\xEA \xE9 uma bruxa, n\xE3o \xE9?
-      (Gra\xE7as a deus)."
+      (Gra\xE7as a Deus)."
     sentenceAction: {fileID: 0}
   - talker: 1
     sentenceText: "Sim! Estou procurando os membros de uma caravana, voc\xEA \xE9

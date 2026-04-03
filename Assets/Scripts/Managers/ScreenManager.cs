@@ -41,7 +41,7 @@ public class ScreenManager : MonoBehaviour
 
     [Header("MainMenu")]
     [SerializeField] private GameObject mainMenuPanel;
-    [SerializeField] private GameObject mainMenuFirstSelected; // Botão selecionado ao abrir o Main Menu
+    [SerializeField] private GameObject mainMenuFirstSelected;
 
     [Header("SelectFile")]
     [SerializeField] private GameObject selectFilePanel;
@@ -82,13 +82,9 @@ public class ScreenManager : MonoBehaviour
         if (pauseAction.WasPressedThisFrame())
         {
             if (currentScreen == Screens.Gameplay)
-            {
                 ChangeScreen(Screens.Pause);
-            }
             else if (currentScreen == Screens.Pause)
-            {
                 ChangeScreen(Screens.Gameplay);
-            }
         }
     }
 
@@ -159,7 +155,6 @@ public class ScreenManager : MonoBehaviour
                 mainMenuPanel.SetActive(true);
                 DisablePlayerControls();
 
-                // Seleciona o primeiro botão do Main Menu para navegação por controle
                 if (mainMenuFirstSelected != null)
                     EventSystem.current?.SetSelectedGameObject(mainMenuFirstSelected);
 
@@ -188,8 +183,6 @@ public class ScreenManager : MonoBehaviour
 
                 hudPanel.SetActive(true);
                 EnablePlayerControls();
-
-                // Troca o action map sempre que volta ao Gameplay, independente de onde veio
                 PlayerController.instance?.playerInput.SwitchCurrentActionMap("Player");
 
                 if (lastScreen == Screens.Pause)
@@ -240,13 +233,12 @@ public class ScreenManager : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(2f);
 
-        // Força o Gameplay sem interceptar, independente do arquétipo
+        // Força o HUD sem verificar arquétipo ainda
         DesactivateAllScreens();
         hudPanel.SetActive(true);
         EnablePlayerControls();
-        currentScreen = Screens.Gameplay;
+        currentScreen = Screens.Gameplay; // agora é seguro, OnCancel tem guarda
 
-        // Pequena pausa para o jogador ver o HUD antes do painel abrir
         yield return new WaitForSecondsRealtime(0.5f);
 
         ChangeScreen(Screens.ArchetypeSelection);
@@ -351,5 +343,6 @@ public class ScreenManager : MonoBehaviour
     {
         healthBar.UpdateHealth(currentHealth, maxHealth);
     }
+
     #endregion
 }
