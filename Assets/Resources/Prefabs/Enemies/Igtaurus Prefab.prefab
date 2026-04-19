@@ -219,6 +219,8 @@ MonoBehaviour:
   invunerabilityColor: {r: 1, g: 1, b: 1, a: 1}
   targetObjToDestroy: {fileID: 6969285725957841593}
   enemyElement: 1
+  arenaEnemy: 0
+  alreadyDied: 0
 --- !u!114 &3302814226559783691
 MonoBehaviour:
   m_ObjectHideFlags: 0

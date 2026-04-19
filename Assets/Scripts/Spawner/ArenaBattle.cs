@@ -10,19 +10,13 @@ public class ArenaBattle : MonoBehaviour
         public event Action OnDefeated;
         private bool _hasBeenActivated;
 
-        private void OnEnable()
-        {
-            _hasBeenActivated = true;
-        }
-
-        private void OnDisable()
-        {
-            if (_hasBeenActivated)
-                OnDefeated?.Invoke();
-        }
+        private void OnEnable() { _hasBeenActivated = true; }
+        private void OnDisable() { if (_hasBeenActivated) OnDefeated?.Invoke(); }
     }
 
     public UnityEvent OnMyChildrenDestroy;
+
+    private int _totalChildren;
     private int _childrenCount;
     private bool _eventFired;
 
@@ -33,11 +27,13 @@ public class ArenaBattle : MonoBehaviour
 
     public void RegisterAllChildren()
     {
+        _totalChildren = 0;
         _childrenCount = 0;
         _eventFired = false;
 
         foreach (Transform child in transform)
         {
+            _totalChildren++;
             _childrenCount++;
             var callback = child.gameObject.AddComponent<OnDisableCallback>();
             callback.OnDefeated += OnChildDefeated;
@@ -55,10 +51,13 @@ public class ArenaBattle : MonoBehaviour
     {
         if (_eventFired) return;
         _eventFired = true;
-
-        foreach (Transform child in transform)
-            Destroy(child.gameObject);
-
+        // Não destrói mais — só dispara o evento
         OnMyChildrenDestroy?.Invoke();
+    }
+
+    public void ResetBattle()
+    {
+        _childrenCount = _totalChildren;
+        _eventFired = false;
     }
 }

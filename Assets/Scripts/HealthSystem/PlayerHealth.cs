@@ -88,8 +88,6 @@ public class PlayerHealth : Health
         player.PhysicsContext.movementVelocity = Vector3.zero;
         player.PhysicsContext.rb.linearVelocity = Vector3.zero;
         StartCoroutine(LevelManager.instance.PlayerRespawn());
-
-        EnemyRespawnManager.instance.OnPlayerDeath();
     }
 
     protected void UpdateUI()

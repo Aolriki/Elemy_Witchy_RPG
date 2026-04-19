@@ -46,8 +46,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ac69fc4ea69fd45b09ada4bdb54c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musics: []
-  effects: []
+  musics:
+  - music: 2
+    clips:
+    - {fileID: 8300000, guid: 19423e835ec4a86458e9ba6137e8d5d5, type: 3}
+  - music: 3
+    clips:
+    - {fileID: 8300000, guid: 7a55370c733615746b18b456ef3e3092, type: 3}
+  effects:
+  - sfx: 11
+    clips:
+    - {fileID: 8300000, guid: 8a6528fc7f64e414f9b429b40402a518, type: 3}
+  - sfx: 10
+    clips:
+    - {fileID: 8300000, guid: 1a62c31f233b2b64fa8aeeee6a8dc7be, type: 3}
+  - sfx: 9
+    clips:
+    - {fileID: 8300000, guid: b4efdf585de77e4438279a32b674b168, type: 3}
+  - sfx: 8
+    clips:
+    - {fileID: 8300000, guid: 284c211e7ba380b4aa450393a5edd1b8, type: 3}
+  - sfx: 7
+    clips:
+    - {fileID: 8300000, guid: b4ee154d11b8ea04b86ec24aac7c53d8, type: 3}
+  - sfx: 6
+    clips:
+    - {fileID: 8300000, guid: 748d6c07a84e0b943af4af942337ca74, type: 3}
+  - sfx: 5
+    clips:
+    - {fileID: 8300000, guid: 1cdcde011f8f62e48a3e581df5bdfc41, type: 3}
+  - sfx: 4
+    clips:
+    - {fileID: 8300000, guid: c38063547cf291744af1d28b9e178a1b, type: 3}
+  - sfx: 3
+    clips:
+    - {fileID: 8300000, guid: 49ab659ab65536f40afc4e9e13ce5e47, type: 3}
+  - sfx: 2
+    clips:
+    - {fileID: 8300000, guid: 71ab402134e82e14ca9e3cd07c872ad6, type: 3}
   randomAmbienceFXs: []
   audioMixer: {fileID: 24100000, guid: aea34ddfa285d074fbc60140ffd3f459, type: 2}
   musicAudioSource: {fileID: 8630153213679491019}

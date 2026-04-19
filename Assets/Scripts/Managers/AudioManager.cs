@@ -115,11 +115,11 @@ public class AudioManager : MonoBehaviour
 
         int rand = Random.Range(0, clips.Length);
         musicAudioSource.loop = loop;
-        musicAudioSource.volume = volume;
         musicAudioSource.clip = clips[rand];
+        musicAudioSource.volume = 0f; // volume começa em 0 explicitamente
         musicAudioSource.Play();
 
-        musicAudioSource.DOFade(0, 2f).From();
+        musicAudioSource.DOFade(volume, 2f); // fade in limpo
     }
     public void TransitionToMusic(MusicID musicID, float fadeDuration = 3.0f)
     {

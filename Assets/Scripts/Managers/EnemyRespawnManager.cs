@@ -1,10 +1,12 @@
 using UnityEngine;
+using System.Collections.Generic;
 
+[DefaultExecutionOrder(-100)]
 public class EnemyRespawnManager : MonoBehaviour
 {
     public static EnemyRespawnManager instance;
 
-    private System.Collections.Generic.List<ElementalHealth> registeredEnemies = new();
+    private List<ElementalHealth> _enemies = new();
 
     private void Awake()
     {
@@ -14,16 +16,22 @@ public class EnemyRespawnManager : MonoBehaviour
 
     public void Register(ElementalHealth enemy)
     {
-        if (!registeredEnemies.Contains(enemy))
-            registeredEnemies.Add(enemy);
+        if (enemy.arenaEnemy) return;
+        if (!_enemies.Contains(enemy))
+            _enemies.Add(enemy);
     }
 
     public void OnPlayerDeath()
     {
-        foreach (var enemy in registeredEnemies)
+        _enemies.RemoveAll(e => e == null);
+
+        foreach (var enemy in _enemies)
         {
-            if (enemy == null) continue;
-            enemy.transform.parent.gameObject.SetActive(true);
+            var root = enemy.transform.parent != null
+                ? enemy.transform.parent.gameObject
+                : enemy.gameObject;
+
+            root.SetActive(true);
             enemy.ResetLife();
         }
     }
